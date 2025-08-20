@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte-titulo: "Exo 2";
+}
+
+header {
+    background-color: #009525;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+h1#titulo-principal {
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    font-size: 2.8em;
+    transition-duration: 1s;
+    color: white;
+}
+
+h1#titulo-principal:hover {
+    font-size: 3.1em;
+    transition-duration: 2s;
+}
+
+main {
+    background-color: red;
+}
