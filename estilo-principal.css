@@ -13,9 +13,10 @@
 }
 
 header {
-    background-color: #009525;
+    /*background-color: #009525;*/
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
+    background-image: linear-gradient(to bottom, #0056f7, #00237c);
 }
 
 h1#titulo-principal {
@@ -32,5 +33,50 @@ h1#titulo-principal:hover {
 }
 
 main {
-    background-color: red;
+    background-color: rgb(170, 181, 208);
+    font-family: var(--fonte-titulo);
+    padding-top: 20px;
+}
+
+main > div#one {
+    margin: auto;
+    /*margin-top: 2px;*/
+    background: #484ddc;
+    padding: 25px;
+    text-align: justify;
+    width: 80%;
+    max-width: 725px;
+    border-radius: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: white;
+}
+
+main > div#two {
+    margin: auto;
+    /*margin-top: 2px;*/
+    background: #373cd6;
+    padding: 25px;
+    text-align: justify;
+    max-width: 725px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    width: 80%;
+    color: white;
+}
+
+main > div > h2 {
+    margin-bottom: 15px;
+
+}
+
+footer {
+    background-color: #0f0263;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    padding: 10px;
 }
