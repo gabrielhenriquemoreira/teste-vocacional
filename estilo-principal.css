@@ -16,7 +16,7 @@ header {
     /*background-color: #009525;*/
     padding-top: 50px;
     padding-bottom: 70px;
-    background-image: linear-gradient(to bottom, #0056f7, #00237c);
+    background-image: linear-gradient(to bottom, #2a67d8, #214296);
 }
 
 h1#titulo-principal {
@@ -41,7 +41,7 @@ main {
 main > div#one {
     margin: auto;
     /*margin-top: 2px;*/
-    background: #484ddc;
+    background: #6e72dd;
     padding: 25px;
     text-align: justify;
     width: 80%;
@@ -56,7 +56,7 @@ main > div#one {
 main > div#two {
     margin: auto;
     /*margin-top: 2px;*/
-    background: #373cd6;
+    background: #6e72dd;
     padding: 25px;
     text-align: justify;
     max-width: 725px;
